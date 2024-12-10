@@ -1,6 +1,6 @@
 package com.example.kotlin_spring_crud_web_api
 
-/*
+/**
 * Web APIで利用するデータモデル
 *
 * RepositoryによるDBとのやりとり、Serviceを介したデータの受け渡し、Controllerのレスポンスに利用する。
@@ -11,6 +11,6 @@ package com.example.kotlin_spring_crud_web_api
 * */
 data class Customer(
     val id: Long,
-    val firstNam: String,
+    val firstName: String,
     val lastName: String,
 )
